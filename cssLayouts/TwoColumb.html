@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<style type="text/css">
+			.photos{
+				float: left;
+				width:100px;
+				height: 100px;
+				border: 1px solid black;
+				margin: 5px;
+			}
+
+			.photos:hover{
+				float: left;
+				width:100px;
+				height: 100px;
+				border: 4px solid black;
+				margin: 3px 2px;
+			}
+
+			.column-left{ 
+				float: left;
+				width: 15%; 
+				position: fixed;
+			}
+			.column-right{ 
+				float: right;
+				width: 85%;
+			}
+
+			.container{
+				width:90%;
+				margin: 0 auto;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+		   	<div class="column-left">
+		   		Left
+		   		</br>
+		   		<a href="http://facebook.com"><img width="75px" hieght="75px" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUp-L7BbbqJUtXog_mWoLvu7BitcmQgmo-JikhgLAm3nxaztRPmg"> </a> </br>
+		   		<a href="http://twitter.com"><img width="75px" hieght="75px" src="data:image/jpeg;base64,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"> </a>
+		   	</div>
+		   	<div class="column-right">
+		   		Right </br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		   	</div>
+		</div>
+	</body>
+
+
+</html>
