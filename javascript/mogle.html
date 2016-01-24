@@ -1,0 +1,140 @@
+<!DOCTYPE>
+<html>
+	<head>
+		
+		<script type="text/javascript" src="jquery-2.2.0.js"></script>
+		<script type="text/javascript" src="myJsLibrary.js"></script>
+
+		<style type="text/css">
+		.mogleOuter{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top:0;
+			background-color: rgba(0,0,0,.5);
+			display:none;
+
+		}
+
+		.mogleInner{
+			text-align: center;
+		}
+
+		.navLi{
+			display: inline-block;
+			list-style-type: none;
+			background-color: rgba(0,0,1,.1);
+			margin:5;
+			padding: 0;
+
+		}
+
+		.dropDown li{
+			list-style-type: none;
+			text-align: center;
+			margin:0;
+			padding: 0;
+		}
+
+		.subDrop1{
+			position: fixed;
+			visibility: hidden;
+			margin:0;
+			padding: 0;
+		}
+
+		.navLi:hover .subDrop1{
+			position: fixed;
+			visibility: visible;
+			margin:0;
+			padding: 0;
+
+		}
+
+		/*.navLi:hover{
+			float: left;
+			list-style-type: none;
+			background-color: rgba(0,0,1,.2);
+			margin:5;
+			padding: 0;
+		}*/
+
+		.navUL{
+			display:inline-block;
+			margin:0;
+			padding: 0;
+		}
+		.navB{
+			position: fixed;
+			width: 100%;
+			margin: auto;
+			text-align: center;
+			background-color: rgba(0,0,200,.3);
+		}
+		li a{
+			text-decoration:none;
+			color: #ffffff;
+		}
+
+
+
+		
+
+		</style>
+	</head>
+
+	<body>
+
+		<nav class= "navB">
+			<ul class= "navUl">
+				<li class = "navLi">
+					<a href="">Home</a>	
+					<div class ="subDrop1">	
+						<ul class= "dropDown"> 
+							<li> mom</li>
+							<li> dad</li>
+							<li> child </li>
+						</ul>	
+					</div>	
+				</li>
+				<li class = "navLi">
+					<a href="">About</a>					
+				</li>
+				<li class = "navLi">
+					<a href="">Contact Us</a>					
+				</li>
+				<li class = "navLi">
+					<a href="">FAQ</a>					
+				</li>
+			</ul>
+		</nav>
+
+		<br><br><br><br><br><br><br><br><br>
+		<h1>GET READY FOR THE MOGLE</h1>
+
+		<!-- <button class= "mogleB" >Click here to mogle</button> -->
+		<a class="mogleB" data-img-url= "http://www.cheesemilkandpickle.com/uploads/7/0/1/5/7015407/4284711.gif"> 
+			READY TO MOGLE
+		</a>
+		
+
+		<div class="mogleOuter">
+			<div class= "mogleInner"> 
+				<img src="" id="mogleImage">
+			</div>
+		</div>
+
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+

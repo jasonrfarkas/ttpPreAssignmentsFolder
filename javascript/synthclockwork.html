@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+	<head>
+		
+		<script type="text/javascript" src="jquery-2.2.0.js"></script>
+		<script type="text/javascript" src="synthclock.js"></script>
+		<script type="text/javascript" src="jQuery Color Animations v2.1.2.js"></script>
+
+		<style type="text/css">
+			
+			.clear{
+				border: none;
+			}
+			.jsField{
+				position: absolute;
+				left:450px;
+				top:250px;
+				border:	1px solid black;
+				border-radius: 10px;
+				width: 320px;
+				margin: auto;
+				background-color: rgba(200,200,200, .2 );
+				text-align: center;
+			}
+			#hours #minutes #seconds #milliseconds{
+				border: none;
+			}
+			div{
+				float: left;
+				margin: 2px;
+				font-size: 60px; 
+				font-family: monospace;
+			}
+
+		</style>
+	</head>
+
+	<body>
+			<div id="jsField" class= "jsField">
+				<div id="hours"></div><div class = "clear">:</div> 
+				<div id="minutes"></div><div class = "clear" >:</div> 
+				<div id="seconds"></div>
+			</div>
+	</body>
+
+</html>
